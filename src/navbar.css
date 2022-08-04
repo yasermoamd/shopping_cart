@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right_side {
+  display: flex;
+}
+
+.right_side > div {
+  padding: 10px;
+}
+.login {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wish_list {
+  cursor: pointer;
+}
+
+.nav_cart {
+  position: relative;
+}
+
+.nav_cart span {
+  position: absolute;
+  top: -5px;
+  right: 16px;
+}
